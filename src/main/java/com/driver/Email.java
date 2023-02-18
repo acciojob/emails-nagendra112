@@ -24,7 +24,6 @@ public class Email {
         int lowerCount = 0;
         int digitCount = 0;
         if(oldPassword.equals(this.password) && newPassword.length()>=8){
-            //System.out.println(getPassword());
             for(int i=0; i<newPassword.length(); i++){
                 char ch = newPassword.charAt(i);
                 if(Character.isUpperCase(ch))
